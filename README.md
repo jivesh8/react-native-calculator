@@ -1,18 +1,17 @@
-## React Native Calculator App
+> Why do I have a folder named ".expo" in my project?
 
-A simple cross platform (iOS and Android) React Native calculator app. This example was put together for [React Native by Example](https://www.reactnativebyexample.com/). Get started learning & mastering React Native for free!
+The ".expo" folder is created when an Expo project is started using "expo start" command.
 
-![Demo](./assets/demo.png)
+> What does the "packager-info.json" file contain?
 
-### Installation
+The "packager-info.json" file contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
 
-- `git clone https://github.com/ReactNativeSchool/react-native-calculator`
-- `yarn install`/`npm install`
+> What does the "settings.json" file contain?
 
-### Running
+The "settings.json" file contains the server configuration that is used to serve the application manifest.
 
-- `yarn run ios`/`npm run ios` or `yarn run android`/`npm run android`
+> Should I commit the ".expo" folder?
 
----
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
 
-This project was put together to serve as an example to help you in building your own React Native apps. Feel free to download it and tinker with it!
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
